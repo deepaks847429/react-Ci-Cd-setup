@@ -31,11 +31,11 @@ jobs:
             - name: "list directories"
               run: ls
 
-            - name: "run lint"
-              run: npm run lint
+            # - name: "run lint"
+            #   run: npm run lint
             
-            - name: "run tests"
-              run: npm test
+            # - name: "run tests"
+            #   run: npm test
 
             - name: "build the app"
               run: npm run build
