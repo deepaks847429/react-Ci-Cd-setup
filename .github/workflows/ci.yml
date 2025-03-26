@@ -3,9 +3,12 @@ name: "sample react Ci pipeline/ workflow"
 on:
     push:
         branches:
-            -main
-            -master
-
+            - main
+            - master
+    pull_request:
+        branches:
+            - main
+            - master
 jobs:
     build-and-test:
         runs-on: ubuntu-latest
